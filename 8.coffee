@@ -1,5 +1,7 @@
 {_log,test,expect,main} = require './util'
-
+#
+# https://projecteuler.net/problem=8
+#
 
 class Solver
 	constructor: (@input)->

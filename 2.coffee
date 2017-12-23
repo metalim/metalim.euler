@@ -1,4 +1,7 @@
 {_log,test,expect,main} = require './util'
+#
+# https://projecteuler.net/problem=2
+#
 
 sum_even_fib_max = ( max )->
 	sum = 0

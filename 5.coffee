@@ -1,4 +1,7 @@
 {_log,test,expect,main} = require './util'
+#
+# https://projecteuler.net/problem=5
+#
 
 gcd = (a,b)->
 	[b,a]=[a,b] if a<b

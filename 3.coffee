@@ -1,4 +1,7 @@
 {_log,test,expect,main} = require './util'
+#
+# https://projecteuler.net/problem=3
+#
 
 factor = (a)->
 	fac = []

@@ -1,4 +1,7 @@
 {_log,test,expect,main} = require './util'
+#
+# https://projecteuler.net/problem=1
+#
 
 sum_below = (a)->
 	sum = 0

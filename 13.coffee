@@ -1,5 +1,8 @@
 {_log,test,expect,main} = require './util'
 require('ansicolor').nice
+#
+# https://projecteuler.net/problem=13
+#
 
 big_sum = (a)->
 	digs = []
