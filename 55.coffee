@@ -1,5 +1,8 @@
 {_log,test,expect,main} = require './util'
 big = require 'big-integer'
+#
+# https://projecteuler.net/problem=55
+#
 
 pal = (a)->
 	big a.toString().split('').reverse().join ''
